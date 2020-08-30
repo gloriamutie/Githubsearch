@@ -120,15 +120,10 @@
           }
         }
       }
-<<<<<<< HEAD
     }
   },
   "defaultProject": "gitSearch",
   "cli": {
     "analytics": "677b3c59-25d1-47b2-beaa-0896d662a6c4"
   }
-=======
-    }},
-  "defaultProject": "gitSearch"
->>>>>>> 7704e088b9a7f1d8546cdda2f107a132f8aca7da
 }

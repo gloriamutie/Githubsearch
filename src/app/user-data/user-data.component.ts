@@ -27,7 +27,11 @@ export class UserDataComponent implements OnInit {
   }
 
   ngOnInit() {
+<<<<<<< HEAD
     this.getSearchedUser('kamauvick');
+=======
+    this.getSearchedUser('gloriamutie');
+>>>>>>> 7704e088b9a7f1d8546cdda2f107a132f8aca7da
     // tslint:disable-next-line:prefer-const
     let particlesJS;
     particlesJS.load('particles-js', 'particles.json', null);

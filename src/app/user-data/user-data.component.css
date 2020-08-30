@@ -35,7 +35,11 @@
 }
 .gsearch{
   font-size: 60px;
+<<<<<<< HEAD
   color:whitesmoke;
+=======
+  color: orange;
+>>>>>>> 7704e088b9a7f1d8546cdda2f107a132f8aca7da
   margin-top: 20px;
   margin-bottom: 40px;
   font-family: 'Love Ya Like A Sister', cursive;
@@ -44,5 +48,16 @@
   font-family: system-ui, serif;
   padding-top: 20px;
   padding-bottom:-40px;
+<<<<<<< HEAD
   color:palevioletred;
+=======
+  color: white;
+}
+#fa-love{
+  color: red;
+  opacity: 0.7;
+}
+.fa{
+  color: red;
+>>>>>>> 7704e088b9a7f1d8546cdda2f107a132f8aca7da
 }
