@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "gitSearch": {
+    "gitsearch": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/gitSearch",
+            "outputPath": "dist/gitsearch",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "gitSearch:build"
+            "browserTarget": "gitsearch:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "gitSearch:build:production"
+              "browserTarget": "gitsearch:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "gitSearch:build"
+            "browserTarget": "gitsearch:build"
           }
         },
         "test": {
@@ -111,24 +111,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "gitSearch:serve"
+            "devServerTarget": "gitsearch:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "gitSearch:serve:production"
+              "devServerTarget": "gitsearch:serve:production"
             }
           }
         }
       }
-<<<<<<< HEAD
     }
   },
-  "defaultProject": "gitSearch",
+  "defaultProject": "gitsearch",
   "cli": {
-    "analytics": "677b3c59-25d1-47b2-beaa-0896d662a6c4"
+    "analytics": false
   }
-=======
-    }},
-  "defaultProject": "gitSearch"
->>>>>>> 7704e088b9a7f1d8546cdda2f107a132f8aca7da
 }
