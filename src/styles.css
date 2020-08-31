@@ -506,7 +506,7 @@ p {
   }
 }
  body{
-  background-color:#a28089;
+  background-image: linear-gradient(to right,#a28089,#8458B3,#d0bdf4, #e5eaf5,#a0d2eb);
 }
 .gsearch{
   font-size: 60px;

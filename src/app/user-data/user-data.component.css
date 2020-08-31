@@ -27,7 +27,7 @@
 
 }
 .overlay{
-  background-color:#8458B3;
+  background-image: linear-gradient(to right,#a28089,#8458B3,#d0bdf4, #e5eaf5,#a0d2eb);
   height: inherit;
 }
 .user{
