@@ -7,14 +7,15 @@
 }
 .jumbotron{
   border-radius: 0;
-  background-color: #172b4d;
+  background-color:#d0bdf4;
 }
-/*
+
 .card-header{
-}*/
+  border-block-color:#8458B3;
+}
 
 .card-footer{
-  background-color: white;
+  background-color:#8458B3;
   color: black;
 }
 .repo-number{
@@ -23,11 +24,11 @@
   font-family: 'Gruppo', cursive;
 }
 #num{
-  color: orangered;
+  color:red;
 }
 #rname{
-  font-family: 'Averia Libre', cursive;
-  color: darkcyan;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:honeydew;
   font-size: 30px;
 }
 
@@ -35,11 +36,11 @@
 #rwatchers{
   font-size: 17px;
   margin: 5px;
-  font-family: 'Roboto Mono', system-ui, serif;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
 }
 .data{
-  font-family: 'Roboto Mono', system-ui, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: lighter;
-  color: darkblue;
+  color:red;
 }

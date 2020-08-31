@@ -23,8 +23,8 @@ body {
   line-height: 1.5;
   margin: 0;
   text-align: left;
-  color: #525f7f;
-  background-color: #f8f9fe;
+  color:rgba(0, 0, 0, .1);
+  background-color:#494D5F ;
 }
 
 [tabindex='-1']:focus {
@@ -169,7 +169,7 @@ h5,
   font-weight: 600;
   line-height: 1.5;
   margin-bottom: .5rem;
-  color: #32325d;
+  color:rgba(0, 0, 0, .1);
 }
 
 h2,
@@ -204,7 +204,7 @@ hr {
   word-wrap: break-word;
   border: 1px solid rgba(0, 0, 0, .05);
   border-radius: .375rem;
-  background-color: #fff;
+  background-color:#494D5F;
   background-clip: border-box;
 }
 
@@ -222,7 +222,7 @@ hr {
   margin-bottom: 0;
   padding: 1.25rem 1.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, .05);
-  background-color: #fff;
+  background-color:#494D5F;
 }
 
 .card-header:first-child {
@@ -239,14 +239,14 @@ hr {
 }
 
 .bg-default {
-  background-color: #172b4d !important;
+  background-color: rgba(0, 0, 0, .1) !important;
 }
 
 a.bg-default:hover,
 a.bg-default:focus,
 button.bg-default:hover,
 button.bg-default:focus {
-  background-color: #0b1526 !important;
+  background-color: #3779ec !important;
 }
 
 .border-0 {
@@ -381,7 +381,7 @@ button.bg-default:focus {
     page-break-after: avoid;
   }
 @page {
-    size: a3;
+    size: a4;
   }
 }
 
@@ -479,8 +479,8 @@ button.bg-default:focus {
 }
 
 .card-profile-stats>div .description {
-  font-size: .81rem;
-  color: #8a1a78;
+  font-size: .85rem;
+  color: #f75990;
   font-weight: bold;
 }
 
@@ -506,11 +506,11 @@ p {
   }
 }
  body{
-  background-color: #172b4d;
+  background-color:#a28089;
 }
 .gsearch{
   font-size: 60px;
-  color: orange;
+  color:#51e2f5;
   margin-top: 20px;
   margin-bottom: 40px;
   font-family: 'Love Ya Like A Sister', cursive;
