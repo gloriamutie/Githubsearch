@@ -6,7 +6,7 @@ import { Directive, Input, ElementRef } from '@angular/core';
 export class LogoHighlightDirective {
 
   constructor(private elem: ElementRef) {
-    this.elem.nativeElement.style.color = '#ff502f';
+    this.elem.nativeElement.style.color = '#51e2f5';
    }
 
 }

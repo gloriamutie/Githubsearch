@@ -23,7 +23,7 @@ body {
   line-height: 1.5;
   margin: 0;
   text-align: left;
-  color:rgba(0, 0, 0, .1);
+  color:whitesmoke;
   background-color:#494D5F ;
 }
 
@@ -68,7 +68,7 @@ caption {
   padding-bottom: 1rem;
   caption-side: bottom;
   text-align: left;
-  color: #8898aa;
+  color:whitesmoke;
 }
 
 button {
@@ -221,7 +221,7 @@ hr {
 .card-header {
   margin-bottom: 0;
   padding: 1.25rem 1.5rem;
-  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  border-bottom: 1px solid #494D5F;
   background-color:#494D5F;
 }
 
@@ -239,14 +239,14 @@ hr {
 }
 
 .bg-default {
-  background-color: rgba(0, 0, 0, .1) !important;
+  background-color: #a28089 !important;
 }
 
 a.bg-default:hover,
 a.bg-default:focus,
 button.bg-default:hover,
 button.bg-default:focus {
-  background-color: #3779ec !important;
+  background-color:#a28089 !important;
 }
 
 .border-0 {
@@ -510,7 +510,7 @@ p {
 }
 .gsearch{
   font-size: 60px;
-  color:#51e2f5;
+  color:#e5eaf5;
   margin-top: 20px;
   margin-bottom: 40px;
   font-family: 'Love Ya Like A Sister', cursive;

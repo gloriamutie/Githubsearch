@@ -16,7 +16,7 @@
 
 .card-footer{
   background-color:#8458B3;
-  color: black;
+  color:#e5eaf5;
 }
 .repo-number{
   font-size: 25px;
@@ -24,11 +24,11 @@
   font-family: 'Gruppo', cursive;
 }
 #num{
-  color:red;
+  color:#8458B3;
 }
 #rname{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color:honeydew;
+  color:#e5eaf5;
   font-size: 30px;
 }
 
@@ -42,5 +42,5 @@
 .data{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: lighter;
-  color:red;
+  color:#f75990;
 }
